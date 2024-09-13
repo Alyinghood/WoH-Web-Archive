@@ -1,0 +1,99 @@
+@charset "utf-8";
+#contents,#bg {
+  opacity: 1;
+}
+#bg,
+#logo,
+#pagetitle,
+#contents > *,
+#footer,
+body#index #contents #sitenav li,
+body:not(#index) #sitenav,
+body:not(#index) #pagenav {
+  opacity: 0;
+}
+body#index #contents #sitenav {
+  opacity: 1;
+}
+@-webkit-keyframes show-up {
+  from { opacity: 0; padding-top: 10px; }
+  to { opacity: 1; padding-top: 0; }
+}
+@-moz-keyframes show-up {
+  from { opacity: 0; padding-top: 10px; }
+  to { opacity: 1; padding-top: 0; }
+}
+@-webkit-keyframes show-up2 {
+  from { opacity: 0; top: 10px; }
+  to { opacity: 1; top: 0; }
+}
+@-moz-keyframes show-up2 {
+  from { opacity: 0; top: 10px; }
+  to { opacity: 1; top: 0; }
+}
+@-webkit-keyframes show-slide-l {
+  from { opacity: 0; margin-left: -50px; }
+  to { opacity: 1; margin-left: 0; }
+}
+@-moz-keyframes show-slide-l {
+  from { opacity: 0; margin-left: -50px; }
+  to { opacity: 1; margin-left: 0; }
+}
+@-webkit-keyframes menu-show {
+  from { opacity: 0; left: 50px; }
+  to { opacity: 1; left: 0; }
+}
+@-moz-keyframes menu-show {
+  from { opacity: 0; left: 50px; }
+  to { opacity: 1; left: 0; }
+}
+@-webkit-keyframes menu-down {
+  from { height: 0; }
+  to { height: 100%; }
+}
+@-moz-keyframes menu-down {
+  from { height: 0; }
+  to { height: 100%; }
+}
+@-webkit-keyframes menu-up {
+  from { height: 100%; }
+  to { height: 0; }
+}
+@-moz-keyframes menu-up {
+  from { height: 100%; }
+  to { height: 0; }
+}
+.show {
+  -webkit-animation-name: show-up2;
+  -moz-animation-name: show-up2;
+  -webkit-animation-duration: 0.8s;
+  -moz-animation-duration: 0.8s;
+  opacity: 1 !important;
+}
+#bg {
+  -webkit-animation-name: show-slide-l;
+  -moz-animation-name: show-slide-l;
+}
+#logo,
+#read,
+#pagetitle,
+#footer {
+  -webkit-animation-name: show-up;
+  -moz-animation-name: show-up;
+}
+nav li.show,
+#news.show {
+  -webkit-animation-name: menu-show;
+  -moz-animation-name: menu-show;
+  -webkit-animation-duration: 0.3s;
+  -moz-animation-duration: 0.3s;
+  opacity: 1 !important;
+}
+#contents.hide {
+  display: none;
+}
+body#index #newsbody.show {
+	display: block;
+  -webkit-animation-duration: 0.2s;
+  -moz-animation-duration: 0.2s;
+}

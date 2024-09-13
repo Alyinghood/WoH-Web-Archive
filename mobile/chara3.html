@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>魔法使いの夜</title>
+<link rel="stylesheet" type="text/css" href="./css/default.css" />
+<link rel="stylesheet" type="text/css" href="./css/style.css" />
+<link rel="stylesheet" media="all and (orientation:landscape)" href="./css/landscape.css" />
+<noscript>
+<link rel="stylesheet" type="text/css" href="./css/show.css" />
+</noscript>
+<script src="./js/jquery-1.6.4.min.js"></script>
+<script src="./js/jquery.mobile-1.0.1.min.js"></script>
+<script type="text/javascript" src="./js/function.js"></script>
+<script type="text/javascript" src="./js/chara.js"></script>
+<script type="text/javascript">
+addOnloadEvent(function(){
+  setTimeout(function(){boxShow('logo')}, 200);
+  setTimeout(function(){boxShow('pagetitle')}, 200);
+  setTimeout(function(){boxShow('charanav')}, 500);
+  setTimeout(function(){boxShow('main')}, 800);
+  setTimeout(function(){boxShow('sitenav')}, 1100);
+  setTimeout(function(){boxShow('footer')}, 200);
+});
+</script>
+<script type="text/javascript">
+/*
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30014293-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+*/
+</script>
+</head>
+<body class="chara">
+<div id="page">
+	<header>
+		<img id="logo" src="./img/logo_s.png" alt="魔法使いの夜" />
+	  <h1 id="pagetitle"><img src="./img/chara/pagetitle.png" alt="character" /></h1>
+  </header>
+	<div id="contents">
+	  <nav id="charanav">
+	    <ul>
+	      <li><a href="chara.html"><img src="./img/chara/chara1.jpg" alt="" /></a></li><!--
+	      --><li><a href="chara2.html"><img src="./img/chara/chara2.jpg" alt="" /></a></li><!--
+	      --><li><a href="chara3.html"><img src="./img/chara/chara3.jpg" alt="" /></a></li><!--
+	      --><li><a href="chara4.html"><img src="./img/chara/chara4.jpg" alt="" /></a></li><!--
+	      --><li><a href="chara5.html"><img src="./img/chara/chara5.jpg" alt="" /></a></li><!--
+	      --><li><a href="chara6.html"><img src="./img/chara/chara6.jpg" alt="" /></a></li><!--
+	      --><li><a href="chara7.html"><img src="./img/chara/chara7.jpg" alt="" /></a></li><!--
+	      --><li><a href="chara8.html"><img src="./img/chara/chara8.jpg" alt="" /></a></li><!--
+	      --><li><a href="chara9.html"><img src="./img/chara/chara9.jpg" alt="" /></a></li><!--
+	      --><li><a href="chara10.html"><img src="./img/chara/chara10.jpg" alt="" /></a></li>
+	    </ul>
+	  </nav>
+	  <div id="main">
+	    <h1 id="name"><img src="./img/chara/sou_n.png" alt="静希草十郎" /></h1>
+	    <img id="charaimg" src="./img/chara/sou.jpg" alt="" />
+	    <p id="desc">現代に下りてきた田舎少年。ある意味タイムスリップ状態。<br />
+				街の豊かさに感心しつつ、少しずつ順応していく平凡な男子高校生。その前向きさは逞しいと言えなくもない。<br />
+				言葉は少ないが人なつこい性格で、たいていの人間とは仲良くなれる長所を持つ。<br />
+				信じた事は、とりあえず黙っておく堅実派。<br />
+				特別でもないが、まあ、普通というワケでもない。
+	    </p>
+
+	    <ul id="thumb">
+	    	<li><a href="./img/chara/sou_img01.png"><img src="./img/chara/sou_img01_s.jpg" alt="" /></a></li>
+	    	<li><a href="./img/chara/sou_img02.png"><img src="./img/chara/sou_img02_s.jpg" alt="" /></a></li>
+	    	<li><a href="./img/chara/sou_img03.png"><img src="./img/chara/sou_img03_s.jpg" alt="" /></a></li>
+	    	<li><a href="./img/chara/sou_img04.png"><img src="./img/chara/sou_img04_s.jpg" alt="" /></a></li>
+	   </ul>
+
+	  </div>
+
+	</div>
+
+  <nav id="sitenav">
+    <ul id="menu">
+      <li><a href="index.html">TOP</a></li>
+      <li><a href="story.html">STORY</a></li>
+      <li><a href="chara.html">CHARACTER</a></li>
+      <li><a href="keyword.html">KEYWORD</a></li>
+      <li><a href="music.html">MUSIC</a></li>
+      <li><a href="special.html">SPECIAL</a></li>
+      <li><a href="outline.html">OUTLINE</a></li>
+    </ul>
+  </nav>
+
+	<footer id="footer">
+		<img src="./img/logo_tm.png" &copy; TYPE-MOON All Rights Reserved. />
+	</footer>
+</div>
+</body>
+</html>

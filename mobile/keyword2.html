@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>魔法使いの夜</title>
+<link rel="stylesheet" type="text/css" href="./css/default.css" />
+<link rel="stylesheet" type="text/css" href="./css/style.css" />
+<link rel="stylesheet" media="all and (orientation:landscape)" href="./css/landscape.css" />
+<noscript>
+<link rel="stylesheet" type="text/css" href="./css/show.css" />
+</noscript>
+<script src="./js/jquery-1.6.4.min.js"></script>
+<script src="./js/jquery.mobile-1.0.1.min.js"></script>
+<script type="text/javascript" src="./js/function.js"></script>
+<script type="text/javascript">
+addOnloadEvent(function(){
+  setTimeout(function(){boxShow('logo')}, 300);
+  setTimeout(function(){boxShow('pagetitle')}, 300);
+  setTimeout(function(){boxShow('main')}, 800);
+  setTimeout(function(){boxShow('categorynav')}, 1300);
+  setTimeout(function(){boxShow('sitenav')}, 1800);
+  setTimeout(function(){boxShow('footer')}, 300);
+});
+</script>
+<script type="text/javascript">
+/*
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30014293-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+*/
+</script>
+</head>
+<body class="keyword">
+<div id="page">
+	<header>
+		<img id="logo" src="./img/logo_s.png" alt="魔法使いの夜" />
+	  <h1 id="pagetitle"><a href="keyword.html"><img src="./img/key/pagetitle.png" alt="keyword" /></a></h1>
+	</header>
+	<div id="contents">
+	  <div id="main">
+	  	<section>
+		  	<h1><img src="./img/key/graphic.png" alt="グラフィック" /></h1>
+				<p>画面サイズを従来の800x600から1024x576に変更。<br />
+				作画クオリティーも大幅に深化。<br />
+				物語の持つ“日常感”を光と空気を感じる緻密なタッチで、その日常の裏で展開される“魔術世界”を鋭いエフェクトと大胆で力強い構図で表現しています。
+				</p>
+			</section>
+
+	  </div>
+
+			<nav id="categorynav">
+				<ul>
+					<li class="scenario"><a href="./keyword1.html"><img src="./img/key/txt1.png" alt="シナリオ" /></a></li><!--
+					--><li class="graphic"><a href="./keyword2.html"><img src="./img/key/txt2.png" alt="グラフィック" /></a></li><!--
+					--><li class="product"><a href="./keyword3.html"><img src="./img/key/txt3.png" alt="画面演出" /></a></li><!--
+					--><li class="sound"><a href="./keyword4.html"><img src="./img/key/txt4.png" alt="サウンド" /></a></li>
+				</ul>
+			</nav>
+
+	</div>
+
+  <nav id="sitenav">
+    <ul id="menu">
+      <li><a href="index.html">TOP</a></li>
+      <li><a href="story.html">STORY</a></li>
+      <li><a href="chara.html">CHARACTER</a></li>
+      <li><a href="keyword.html">KEYWORD</a></li>
+      <li><a href="music.html">MUSIC</a></li>
+      <li><a href="special.html">SPECIAL</a></li>
+      <li><a href="outline.html">OUTLINE</a></li>
+    </ul>
+  </nav>
+
+	<footer id="footer">
+		<img src="./img/logo_tm.png" &copy; TYPE-MOON All Rights Reserved. />
+	</footer>
+</div>
+</body>
+</html>

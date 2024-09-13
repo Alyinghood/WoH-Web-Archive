@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+body#index #bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+body#index #news {
+  padding-left: 185px;
+  text-align: center;
+}
+body#index #news a {
+  margin-left: auto;
+  margin-right: auto;
+}
+body.chara #charanav {
+  text-align: left;
+}
+body.chara #contents #name {
+	position: static;
+	left: 0;
+	top: 0;
+	text-align: left;
+	margin-left: 205px;
+}
+body.chara #contents #charaimg {
+	margin-top: -40px;
+}
+body.outline #main section {
+	float: left;
+	margin-left: 0;
+	margin-right: 0;
+	width: 50%;
+}
+body.outline #main section h2,
+body.outline #main section dl {
+	margin-left: 10px;
+	margin-right: 10px;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>魔法使いの夜</title>
+<link rel="stylesheet" type="text/css" href="./css/default.css" />
+<link rel="stylesheet" type="text/css" href="./css/style.css" />
+<link rel="stylesheet" media="all and (orientation:landscape)" href="./css/landscape.css" />
+<noscript>
+<link rel="stylesheet" type="text/css" href="./css/show.css" />
+</noscript>
+<script src="./js/jquery-1.6.4.min.js"></script>
+<script src="./js/jquery.mobile-1.0.1.min.js"></script>
+<script type="text/javascript" src="./js/function.js"></script>
+<script type="text/javascript">
+addOnloadEvent(function(){
+  setTimeout(function(){boxShow('bg')}, 800);
+  setTimeout(function(){boxShow('logo')}, 1600);
+  setTimeout(function(){boxShow('read')}, 2400);
+  setTimeout(function(){boxShow('sitenav')}, 3200);
+  setTimeout(function(){boxShow('news')}, 5000);
+  setTimeout(function(){boxShow('release')}, 5500);
+  setTimeout(function(){boxShow('footer')}, 1600);
+});
+
+$(document).ready(function(){
+	$('#news > .open').append('<span>' + $('#newsbody .day').text() + '</span>');
+//what's new open
+	viewStatus = 0;
+	$('#news .open').bind('click',function(e){
+		if(viewStatus == 0){
+			$('#newsbody').addClass('show');
+		  viewStatus = 1;
+		};
+		return false;
+	});
+
+//what's new close
+	$("#page").bind('click',function(){
+		if(viewStatus == 1){
+			$('#newsbody').removeClass();
+		  viewStatus = 0;
+			return false;
+		};
+	});
+});
+</script>
+<script type="text/javascript">
+/*
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30014293-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+*/
+</script>
+</head>
+<body id="index">
+<div id="page">
+	<div id="contents">
+	  <header id="logo"><img src="./img/logo.png" alt="魔法使いの夜" /></header>
+	  <p id="read"><img src="./img/read.png"></p>
+	  <nav id="sitenav">
+	    <ul>
+	      <li><a href="story.html">STORY</a></li>
+	      <li><a href="chara.html">CHARACTER</a></li>
+	      <li><a href="keyword.html">KEYWORD</a></li>
+	      <li><a href="music.html">MUSIC</a></li>
+	      <li><img src="./img/new.png" alt="New!" /><a href="special.html">SPECIAL</a></li>
+	      <li><a href="outline.html">OUTLINE</a></li>
+	    </ul>
+	  </nav>
+	  <div id="news">
+	  	<p class="open">What's New</p>
+			<div id="newsbody">
+				<p class="day">2012.04.12</p>
+				<p>スマートフォンサイト公開<br />[special]ページに壁紙を追加</p>
+			</div>
+	  </div>
+	  <div id="release"><img src="./img/release.png" alt="2012.4.12 発売 日本語版windows(R) XP/Vista/7 対応" /></div>
+	</div>
+	<div id="bg"><img src="./img/chara.png" /></div>
+	<footer id="footer">
+		<img src="./img/logo_tm.png" &copy; TYPE-MOON All Rights Reserved. />
+	</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>魔法使いの夜</title>
+<link rel="stylesheet" type="text/css" href="./css/default.css" />
+<link rel="stylesheet" type="text/css" href="./css/style.css" />
+<link rel="stylesheet" media="all and (orientation:landscape)" href="./css/landscape.css" />
+<noscript>
+<link rel="stylesheet" type="text/css" href="./css/show.css" />
+</noscript>
+<script src="./js/jquery-1.6.4.min.js"></script>
+<script src="./js/jquery.mobile-1.0.1.min.js"></script>
+<script type="text/javascript" src="./js/function.js"></script>
+<script type="text/javascript">
+addOnloadEvent(function(){
+  setTimeout(function(){boxShow('logo')}, 300);
+  setTimeout(function(){boxShow('pagetitle')}, 300);
+  setTimeout(function(){boxShow('main')}, 800);
+  setTimeout(function(){boxShow('categorynav')}, 1300);
+  setTimeout(function(){boxShow('sitenav')}, 1800);
+  setTimeout(function(){boxShow('footer')}, 300);
+});
+</script>
+<script type="text/javascript">
+/*
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30014293-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+*/
+</script>
+</head>
+<body class="outline">
+<div id="page">
+	<header>
+		<img id="logo" src="./img/logo_s.png" alt="魔法使いの夜" />
+	  <h1 id="pagetitle"><img src="./img/outline/pagetitle.png" alt="character" /></h1>
+  </header>
+	<div id="contents">
+	  <div id="main">
+	  	<section>
+				<h2><img src="./img/outline/koyama.png" alt="奈須きのこ" /></h2>
+				<p>「余力を残してどうするのか」とは彼のアーサー王の成れの果てが口にした台詞でしたか(笑)この2年余り、まさにそんな気構えだったのかな、と思います。<br />
+　永きに渡った開発もどうにか終わりが見えてきました。楽しみにお待ち頂いた皆さんに、ようやくお届けできるという喜びと安堵が、もう手の届く所に来ています。まだ感慨に耽る程に気を抜くには気が早いので、もどかしい気持でもやもやした毎日、というのが正直な所ですが。<br />
+　今回、自分に課せられた仕事は、キャラクターを魅力的に描くこと、シーンの臨場感を絵で表現すること、この2点に集約されます。<br />
+　後者は「Fate」シリーズからの延長、優秀なスタッフに支えられたお陰もあり、確かな手応えを感じています。季節や自然の空気感、情緒、街や建物の佇まい、細やかな小物の存在感、戦闘のスピード感、迫力、かっこよさ、何をどのように作画してもらい、仕上げたか、つぶさに思い起こすことができます。<br />
+　前者のキャラクター原作に関しては初めての経験です。力を尽くしたと言い切る事はできます。ですが、魅力的に思うかは人それぞれ、万人にそう思ってもらえることはできないかもしれません。それでも、より多くの人に魅力を感じてもらえることを、切に願います。</p>
+		  </section>
+	  </div>
+
+	</div>
+
+  <nav id="sitenav">
+    <ul id="menu">
+      <li><a href="index.html">TOP</a></li>
+      <li><a href="story.html">STORY</a></li>
+      <li><a href="chara.html">CHARACTER</a></li>
+      <li><a href="keyword.html">KEYWORD</a></li>
+      <li><a href="music.html">MUSIC</a></li>
+      <li><a href="special.html">SPECIAL</a></li>
+      <li><a href="outline.html">OUTLINE</a></li>
+    </ul>
+  </nav>
+
+	<footer id="footer">
+		<img src="./img/logo_tm.png" &copy; TYPE-MOON All Rights Reserved. />
+	</footer>
+</div>
+</body>
+</html>

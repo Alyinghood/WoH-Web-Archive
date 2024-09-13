@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* -----------------------------------------------------------
+
+CSS Information
+
+ File name:      default.css
+ Author:         hase (admin)
+ Style Info:     デフォルトのスタイルのリセット及び基本設定
+ 
+----------------------------------------------------------- */
+
+/*----------------------------------------------------
+
+  Reset
+
+----------------------------------------------------*/
+/* リセット */
+* { margin:0; padding:0; }
+/* clearfix */
+/* はみ出し対策 */
+body { width:100%; }
+/* HTML5に対応していないOS対策 */
+article, aside, figure, footer, header,hgroup, nav, section { display:block; }
+
+
+/*----------------------------------------------------
+
+  Base
+
+----------------------------------------------------*/
+body {
+  font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ";
+  font-size: 90%;
+  line-height: 1.5;
+}
+* {
+  font-size: 100%;
+}
+
+
+/*----------------------------------------------------
+
+  Link
+
+----------------------------------------------------*/
+a:link {
+  display: inline-block;
+  padding: 2px;
+  text-decoration: none;
+  color: #263158;
+}
+a:visited {
+  text-decoration: none;
+  color: #263158;
+}
+a:hover {
+  color: #263158;
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+  color: #263158;
+}
+
+ul,ol,dl {
+	list-style: none;
+}
+
+

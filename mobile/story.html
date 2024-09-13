@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>魔法使いの夜</title>
+<link rel="stylesheet" type="text/css" href="./css/default.css" />
+<link rel="stylesheet" type="text/css" href="./css/style.css" />
+<link rel="stylesheet" media="all and (orientation:landscape)" href="./css/landscape.css" />
+<noscript>
+<link rel="stylesheet" type="text/css" href="./css/show.css" />
+</noscript>
+<script src="./js/jquery-1.6.4.min.js"></script>
+<script src="./js/jquery.mobile-1.0.1.min.js"></script>
+<script type="text/javascript" src="./js/function.js"></script>
+<script type="text/javascript">
+addOnloadEvent(function(){
+  setTimeout(function(){boxShow('logo')}, 300);
+  setTimeout(function(){boxShow('pagetitle')}, 300);
+  setTimeout(function(){boxShow('main')}, 800);
+  setTimeout(function(){boxShow('sitenav')}, 1300);
+  setTimeout(function(){boxShow('footer')}, 300);
+});
+</script>
+<script type="text/javascript">
+/*
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30014293-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+*/
+</script>
+</head>
+<body class="story">
+<div id="page">
+	<header>
+		<img id="logo" src="./img/logo_s.png" alt="魔法使いの夜" />
+	  <h1 id="pagetitle"><img src="./img/story/pagetitle.png" alt="character" /></h1>
+  </header>
+	<div id="contents">
+	  <div id="main">
+	  	<section>
+				<h2><img src="./img/story/story1.png" alt="―――坂の上のお屋敷には、" /><img src="./img/story/story2.png" alt="二人の魔女が住んでいる―――" /></h2>
+				<p>1980年後半。華やかさと活力に満ちた時代の黄昏時。<br />
+				都会に下りてきた少年は、現代に生きる二人の魔女とすれ違う。</p>
+
+				<p>少年はごく自然に暮らしてきて、<br />
+				彼女は凛々しく胸を張って、<br />
+				少女は眠るように隠れ住んで。</p>
+
+				<p>三者三様の星の巡り。<br />
+				交わることなんてもってのほか。<br />
+				何もかも違う三人の共同生活が始まるのは、あと、もうちょっと先の話―――</p>
+		    </p>
+		  </section>
+	  </div>
+
+	</div>
+
+  <nav id="sitenav">
+    <ul id="menu">
+      <li><a href="index.html">TOP</a></li>
+      <li><a href="story.html">STORY</a></li>
+      <li><a href="chara.html">CHARACTER</a></li>
+      <li><a href="keyword.html">KEYWORD</a></li>
+      <li><a href="music.html">MUSIC</a></li>
+      <li><a href="special.html">SPECIAL</a></li>
+      <li><a href="outline.html">OUTLINE</a></li>
+    </ul>
+  </nav>
+
+	<footer id="footer">
+		<img src="./img/logo_tm.png" &copy; TYPE-MOON All Rights Reserved. />
+	</footer>
+</div>
+</body>
+</html>

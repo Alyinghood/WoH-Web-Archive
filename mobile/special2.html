@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>魔法使いの夜</title>
+<link rel="stylesheet" type="text/css" href="./css/default.css" />
+<link rel="stylesheet" type="text/css" href="./css/style.css" />
+<link rel="stylesheet" media="all and (orientation:landscape)" href="./css/landscape.css" />
+<noscript>
+<link rel="stylesheet" type="text/css" href="./css/show.css" />
+</noscript>
+<script src="./js/jquery-1.6.4.min.js"></script>
+<script src="./js/jCarousel.min.js"></script>
+<script src="./js/jquery.mobile-1.0.1.min.js"></script>
+<script type="text/javascript" src="./js/function.js"></script>
+<script type="text/javascript">
+addOnloadEvent(function(){
+  setTimeout(function(){boxShow('logo')}, 300);
+  setTimeout(function(){boxShow('pagetitle')}, 300);
+  setTimeout(function(){boxShow('main')}, 800);
+  setTimeout(function(){boxShow('sitenav')}, 1300);
+  setTimeout(function(){boxShow('footer')}, 300);
+});
+</script>
+<script type="text/javascript">
+/*
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30014293-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+*/
+</script>
+</head>
+<body class="special">
+<div id="page">
+	<header>
+		<img id="logo" src="./img/logo_s.png" alt="魔法使いの夜" />
+	  <h1 id="pagetitle"><img src="./img/special/pagetitle.png" alt="Special"></h1>
+  </header>
+	<div id="contents">
+	  <div id="main">
+	  	<div id="gallery">
+				<ul class="jCarousel">
+					<li><img src="./img/special/ss1.jpg" /></li>
+					<li><img src="./img/special/ss2.jpg" /></li>
+					<li><img src="./img/special/ss3.jpg" /></li>
+					<li><img src="./img/special/ss4.jpg" /></li>
+					<li><img src="./img/special/ss5.jpg" /></li>
+					<li><img src="./img/special/ss6.jpg" /></li>
+					<li><img src="./img/special/ss7.jpg" /></li>
+					<li><img src="./img/special/ss8.jpg" /></li>
+					<li><img src="./img/special/ss9.jpg" /></li>
+					<li><img src="./img/special/ss10.jpg" /></li>
+					<li><img src="./img/special/ss11.jpg" /></li>
+					<li><img src="./img/special/ss12.jpg" /></li>
+				</ul>
+			</div>
+			<nav id="categorynav">
+				<ul>
+					<li class="movie"><a href="./special1.html"><img src="./img/special/txt1.png" alt="C78プロモーションムービー"></a></li>
+				</ul>
+			</nav>
+	  </div>
+
+	</div>
+
+  <nav id="sitenav">
+    <ul id="menu">
+      <li><a href="index.html">TOP</a></li>
+      <li><a href="story.html">STORY</a></li>
+      <li><a href="chara.html">CHARACTER</a></li>
+      <li><a href="keyword.html">KEYWORD</a></li>
+      <li><a href="music.html">MUSIC</a></li>
+      <li><a href="special.html">SPECIAL</a></li>
+      <li><a href="outline.html">OUTLINE</a></li>
+    </ul>
+  </nav>
+
+	<footer id="footer">
+		<img src="./img/logo_tm.png" &copy; TYPE-MOON All Rights Reserved. />
+	</footer>
+</div>
+</body>
+</html>

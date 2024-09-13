@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<setting>
+  <swf update="swf/base.swf">
+	<version>16</version>
+</swf>
+
+  <swf update="swf/story.swf">
+	<version>2</version>
+</swf>
+
+  <swf update="swf/character.swf">
+	<version>6</version>
+</swf>
+
+  <swf update="swf/keyword.swf">
+	<version>2</version>
+</swf>
+  <swf update="swf/music.swf">
+	<version>2</version>
+</swf>
+
+  <swf update="swf/special.swf">
+<version>10</version>
+</swf>
+
+  <swf update="swf/outline.swf">
+<version>9</version>
+</swf>	
+</setting>
